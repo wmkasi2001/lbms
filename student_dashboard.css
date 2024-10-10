@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    padding: 10px 0;
+    color: #fff;
+}
+
+header .logo img {
+    max-height: 80px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #0059b3;
+}
+
+.dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.section-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f3f3f3;
+}
+
+.styled-table thead tr {
+    background-color: #003366;
+    color: #fff;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Styling for input and submit buttons */
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0059b3;
+}
+
+/* Styling for return and notification buttons */
+a.btn, .return-button button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+a.btn:hover, .return-button button:hover {
+    background-color: #0059b3;
+}
+
+/* Adjustments for return button container */
+.return-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.search-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}

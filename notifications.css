@@ -1,0 +1,125 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Header Styling */
+header {
+    background-color: #003366;
+    padding: 10px 0;
+    color: #fff;
+}
+
+header .logo img {
+    max-height: 80px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #0059b3;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f3f3f3;
+}
+
+table thead {
+    background-color: #003366;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Form Styling */
+form {
+    display: inline-block;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0059b3;
+}
+
+/* No Pending Requests Message */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Images/background.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"], form input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
